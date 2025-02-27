@@ -1,0 +1,42 @@
+.title{
+    font-size: 250%;
+    font-family:"Agency FB",sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-stroke: .05px #00bcd9;
+    color:#FFF2C2;
+}
+body{
+    background-color: rgb(20,20,20);
+}
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap:20px;
+}
+div.limg{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+    border-color: lightgreen;
+    border-width: 5px;
+}
+.img{
+    height:120px;
+    width:120px;
+    border-radius: 10%;
+    border-width: 5px;
+    border-color:cornflowerblue;
+    opacity:0.5;
+}
+.img:hover{
+    opacity:1;
+    border-color: greenyellow;
+    border-width: 25px;
+}
+
+
+
